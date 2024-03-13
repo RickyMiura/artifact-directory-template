@@ -1,5 +1,31 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Exploring Complex Graph Representations of Highway Networks for Traffic Speed Forecasting
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Traffic speed forecasting, a critical endeavor in urban planning and transporta-
+tion, requires the construction of sophisticated models capable of navigating
+the multifaceted dynamics of traffic systems. Current techniques, including
+machine learning algorithms such as Random Forest, and various deep learn-
+ing approaches (CNN, RNN), have historically grappled with two primary
+challenges: the accurate identification of influential features amidst countless
+variables, and the potential of long-term forecasts. Our research introduces
+an advanced solution to these issues through the implementation of Spatial-
+Temporal Graph Attention Networks (ST-GAT), which are designed to address
+the complex spatial-temporal dependencies that traditional methods often fail
+to capture. Our innovative approach involves the construction of six different
+graphs, each trained using two distinct ST-GAT models-ST-GAT Single Edge
+and ST-GAT Edge Type-differentiated by their handling of edge types. This
+categorization allows for a detailed scrutiny of how different combinations
+of node and edge features impact the models’ ability to forecast traffic speed
+with high accuracy, especially over longer time intervals. Through this inves-
+tigation, we can observe the significance of edge weights and node feature
+selection in improving predictive performance, thus offering new insights into
+the plethora of factors influencing traffic dynamics. Preliminary results from
+our exploration indicate an improvement in the accuracy of traffic flow pre-
+dictions, particularly for future forecasts. This success not only validates the
+potential of our ST-GAT framework to revolutionize traffic prediction strate-
+gies but also highlights the importance of leveraging graph-based modeling to
+overcome the limitations faced by existing methodologies. By capturing the
+nuanced interactions within traffic systems, our work sets the stage for more
+adaptive urban transportation networks, reflecting a significant step forward
+in the quest to enhance infrastructure management and planning.
